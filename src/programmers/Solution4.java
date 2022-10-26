@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 /*
  * 프로그래머스 lv1. 수박수박수 
