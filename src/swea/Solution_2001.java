@@ -9,7 +9,7 @@ public class Solution_2001 {
 		
 		int T = sc.nextInt();
 		
-		int max = 0;
+		
 		
 		
 		for(int i = 0; i < T; i++) {
@@ -25,8 +25,9 @@ public class Solution_2001 {
 		}
 		
 		
-		for(int n = 0; n < N-M; n++) {
-			for(int m= 0; m < N-M; m++) {
+		int max = 0;
+		for(int n = 0; n < N-M+1; n++) {
+			for(int m= 0; m < N-M+1; m++) {
 				int sum = 0;
 				for(int p = 0; p < M; p++) {
 					for(int q = 0; q < M; q++) {
