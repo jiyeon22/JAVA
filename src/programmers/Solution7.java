@@ -2,6 +2,7 @@ package programmers;
 
 import java.util.*;
 
+//lv1. 같은 숫자는 싫어  
 public class Solution7 {
     public static ArrayList<Integer> solution(int []arr) {
         
