@@ -1,8 +1,23 @@
 package programmers;
 //lv1. 부족한 금액 게산하기 
 public class Solution9 {
+	//다른풀이
 	
 	public static long solution(int price, int money, int count) {
+		
+		long answer = money;
+		
+		for(int i = 1; i <= count; i++) {
+			answer -= price * i;
+		}
+		
+		return (answer > 0 ? 0 : -answer);
+		
+		
+		
+		
+	}
+	/*public static long solution(int price, int money, int count) {
         
 		
 		long answer = -1;
@@ -13,24 +28,21 @@ public class Solution9 {
 	
 		for(int i = 1; i <= count; i++) {
 			charge += price * i;
-			
-		
-			
+				
 		}
 		
-		
-		
-	
 		if(charge >= money) {
 			result = charge - money;
 			answer = result;
 			return answer;
 		}
+		
 		else return 0;
 		
 
        
     }
+    */
 	
 
 	public static void main(String[] args){
