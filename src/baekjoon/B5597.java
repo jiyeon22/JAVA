@@ -2,6 +2,8 @@ package baekjoon;
 
 import java.util.Scanner;
 
+//
+
 public class B5597 {
 	public static void main(String[] args) {
 		int[] num = new int [31];
